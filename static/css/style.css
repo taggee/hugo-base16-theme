@@ -24,15 +24,15 @@
 .base02 { color: var(--base02); }
 .base03 { color: var(--base03); }
 .base04 { color: var(--base04); }
-.base05 { color: var(--base05); }
+.base05 { color: var(--base05); align-self: center;}
 .base06 { color: var(--base06); }
 .base07 { color: var(--base07); }
-.base08 { color: var(--base08); }
-.base09 { color: var(--base09); }
-.base0a { color: var(--base0a); }
-.base0b { color: var(--base0b); }
-.base0c { color: var(--base0c); }
-.base0d { color: var(--base0d); }
+.base08 { color: var(--base08); align-self: center;}
+.base09 { color: var(--base09); align-self: center;}
+.base0a { color: var(--base0a); align-self: center;}
+.base0b { color: var(--base0b); align-self: center;}
+.base0c { color: var(--base0c); align-self: center;}
+.base0d { color: var(--base0d); align-self: center;}
 .base0e { color: var(--base0e); }
 .base0f { color: var(--base0f); }
 
@@ -195,8 +195,9 @@ footer a {
 }
 
 .homepage h1.site-title {
-  text-align: center;
-  font-size: 5em;
+  display: flex;
+  justify-content: center;
+  font-size: 6em;
   color: var(--base0c);
 }
 
